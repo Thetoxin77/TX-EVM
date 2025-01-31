@@ -1,0 +1,76 @@
+{
+    "chains": [
+        {
+            "name": "TEA Chain",
+            "rpc_url": "https://assam-rpc.tea.xyz",
+            "chain_id": 93384,
+            "currency": "TEA",
+            "explorer": "https://tea.explorer",
+            "min_amount": 0.011,
+            "max_amount": 0.024
+        },
+        {
+            "name": "Binance Smart Chain",
+            "rpc_url": "https://bsc-dataseed.binance.org/",
+            "chain_id": 56,
+            "currency": "BNB",
+            "explorer": "https://bscscan.com",
+            "min_amount": 0.01,
+            "max_amount": 0.1
+        },
+        {
+            "name": "Ethereum Mainnet",
+            "rpc_url": "https://mainnet.infura.io/v3/YOUR-PROJECT-ID",
+            "chain_id": 1,
+            "currency": "ETH",
+            "explorer": "https://etherscan.io",
+            "min_amount": 0.005,
+            "max_amount": 0.1
+        },
+        {
+            "name": "Polygon Mainnet",
+            "rpc_url": "https://polygon-rpc.com",
+            "chain_id": 137,
+            "currency": "MATIC",
+            "explorer": "https://polygonscan.com",
+            "min_amount": 0.01,
+            "max_amount": 0.1
+        },
+        {
+            "name": "Avalanche C-Chain",
+            "rpc_url": "https://api.avax.network/ext/bc/C/rpc",
+            "chain_id": 43114,
+            "currency": "AVAX",
+            "explorer": "https://snowtrace.io",
+            "min_amount": 0.01,
+            "max_amount": 0.1
+        },
+        {
+            "name": "Fantom Opera",
+            "rpc_url": "https://rpcapi.fantom.network",
+            "chain_id": 250,
+            "currency": "FTM",
+            "explorer": "https://ftmscan.com",
+            "min_amount": 0.01,
+            "max_amount": 0.1
+        },
+        {
+            "name": "Arbitrum One",
+            "rpc_url": "https://arb1.arbitrum.io/rpc",
+            "chain_id": 42161,
+            "currency": "ETH",
+            "explorer": "https://arbiscan.io",
+            "min_amount": 0.005,
+            "max_amount": 0.1
+        },
+        {
+            "name": "Optimism",
+            "rpc_url": "https://mainnet.optimism.io",
+            "chain_id": 10,
+            "currency": "ETH",
+            "explorer": "https://optimistic.etherscan.com",
+            "min_amount": 0.005,
+            "max_amount": 0.1
+        }
+    ]
+}
